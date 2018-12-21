@@ -9,6 +9,7 @@
 </tr>
 <tr>
 <td>
+<a href="#11.5.1">11.5.1</a><br/>
 <a href="#11.5.0">11.5.0</a><br/>
 <a href="#11.4.0">11.4.0</a><br/>
 <a href="#11.3.0">11.3.0</a><br/>
@@ -31,6 +32,22 @@
   * [0.10.x](CHANGELOG_V010.md)
   * [io.js](CHANGELOG_IOJS.md)
   * [Archive](CHANGELOG_ARCHIVE.md)
+
+<a id="11.5.0"></a>
+## 2018-12-26, Version 11.6.0 (Current), @MylesBorins
+
+This is a special release to add a CLI flag to set the max http header size.
+This should have been included in the 11.3.0 security release.
+
+### Notable Changes
+
+* **cli**: add --max-http-header-size flag (cjihrig) [#24811](https://github.com/nodejs/node/pull/24811)
+
+### Commits
+
+* [[`edd8bd0ee0`](https://github.com/nodejs/node/commit/edd8bd0ee0)] - **cli**: add --max-http-header-size flag (cjihrig) [#24811](https://github.com/nodejs/node/pull/24811)
+* [[`0057af293a`](https://github.com/nodejs/node/commit/0057af293a)] - **deps**: cherry-pick http\_parser\_set\_max\_header\_size (cjihrig) [#24811](https://github.com/nodejs/node/pull/24811)
+* [[`c80ac7fae3`](https://github.com/nodejs/node/commit/c80ac7fae3)] - **src**: add kUInteger parsing (Matteo Collina) [#24811](https://github.com/nodejs/node/pull/24811)
 
 <a id="11.5.0"></a>
 ## 2018-12-18, Version 11.5.0 (Current), @BethGriggs
